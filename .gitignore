@@ -1,0 +1,20 @@
+# 虚拟环境（不要提交，用 install.bat 重建）
+venv/
+
+# 密钥（不要提交，install.bat 会自动生成模板）
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 运行产物（译文、质检报告、告警报告）
+outputs/
+
+# 旧的手工备份方式，已由 git 取代
+program_backup/
+_sync_backup_*/
+
+# 发布 / 本地版本备份脚本：仅作者本人使用，不进公开仓库
+发布.bat
+保存版本.bat
